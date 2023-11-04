@@ -8,7 +8,7 @@ license = "MIT"
 description = "This crate provides temporary indexing for customized Rust libraries to be used in Narrowlink"
 repository = "https://github.com/narrowlink/narrowlink-custom-dependencies"
 readme = "README.md"
-keywords = [""]
+# keywords = [""]
 
 [dependencies]
 tokio = { version = "1", features = ["macros", "rt", "fs", "io-util", "sync"] }
